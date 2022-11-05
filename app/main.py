@@ -9,7 +9,8 @@ app = FastAPI()
 async def index():
     return {'/2019': 'Para ver diccionario de 2019',
             '/2020': 'Para ver diccionario de 2020',
-            '/2021': 'Para ver diccionario de 2021'}
+            '/2021': 'Para ver diccionario de 2021',
+            'Saludos': 'Al Sup 07 ;P (emoji del intenso)'}
 
 
 @app.get("/2019")
