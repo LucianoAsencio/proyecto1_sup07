@@ -2,7 +2,7 @@
 
 import pandas as pd
 
-df = pd.read_csv("csv\\netflix.csv")
+df = pd.read_csv("/csv/netflix.csv")
 
 
 # Cambiamos el tipo de dato de date_added(object) a datetime
